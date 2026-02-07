@@ -2,27 +2,27 @@
 
 
 
- 🔥 TreeBio – Smart Link-in-Bio Platform
+    🔥 TreeBio – Smart Link-in-Bio Platform
        TreeBio is a dynamic link-in-bio web application where users can create a personal profile and manage all their social links and projects in one place. It provides full CRUD               functionality with real-time activity tracking for better engagement insights.
        
-  🚀 Features
+    🚀 Features
 
-  🔐 Authentication with Clerk
-      Secure login and user management using Clerk.
-  ✏️ CRUD for Links & Projects
-      Add, update, delete social links and project URLs easily.
-  📊 Tap Analytics System
-      Tracks how many times each link is clicked.
-  🌐 IP Address Tracking
-      Logs visitor IP addresses for activity monitoring and unique visit analysis.
-  📈 Activity Dashboard
-      Users can view engagement stats for each link.
-  🎨 Responsive UI
-     Clean and mobile-friendly interface.  
-  ⚡ Fast & Scalable Architecture
-     Built for performance and smooth user experience.
-
-  🧠 Technical Highlights
+    🔐 Authentication with Clerk
+       Secure login and user management using Clerk.
+    ✏️ CRUD for Links & Projects
+       Add, update, delete social links and project URLs easily.
+    📊 Tap Analytics System
+       Tracks how many times each link is clicked.
+    🌐 IP Address Tracking
+       Logs visitor IP addresses for activity monitoring and unique visit analysis.
+    📈 Activity Dashboard
+       Users can view engagement stats for each link.
+    🎨 Responsive UI
+       Clean and mobile-friendly interface.  
+    ⚡ Fast & Scalable Architecture
+       Built for performance and smooth user experience.
+  
+    🧠 Technical Highlights
       Implemented CRUD operations for social links and projects.
       Built a tap tracking system to count link clicks in real time.
       Integrated IP logging to analyze visitor behavior.
@@ -30,7 +30,7 @@
       Optimized UI for fast interaction and clean UX.
 
  
-  🛠 Tech Stack
+    🛠 Tech Stack
      Frontend:  Next.js
      Authentication: Clerk
      Backend: Node.js / API Routes
@@ -40,24 +40,24 @@
 
 
 
-   ⚙️ Installation & Setup
+    ⚙️ Installation & Setup
 
-   1️⃣ Clone the repository
-      git clone https://github.com/arnavvarshneyy/TreeBio.git
-      cd TreeBio
+    1️⃣ Clone the repository
+       git clone https://github.com/arnavvarshneyy/TreeBio.git
+       cd TreeBio
       
-   2️⃣ Install dependencies
-      npm install
+    2️⃣ Install dependencies
+       npm install
       
-   3️⃣ Setup environment variables
-      Create a .env.local file and add:
-      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
-      CLERK_SECRET_KEY=your_key_here
-      DATABASE_URL=put_your_neon_key
-      NODE_ENV=development
+    3️⃣ Setup environment variables
+       Create a .env.local file and add:
+       NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
+       CLERK_SECRET_KEY=your_key_here
+       DATABASE_URL=put_your_neon_key
+       NODE_ENV=development
       
-   4️⃣ Run the project
-      npm run dev
+    4️⃣ Run the project
+       npm run dev
 
     App will run on:
     http://localhost:3000
