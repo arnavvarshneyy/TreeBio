@@ -7,36 +7,39 @@
 TreeBio is a dynamic link-in-bio web application where users can create a personal profile and manage all their social links and projects in one place. It provides full CRUD  functionality with real-time activity tracking for better engagement insights.
        
 🚀 Features-
-    🔐 Authentication with Clerk
+
+ 1. Authentication with Clerk
        Secure login and user management using Clerk.
-    ✏️ CRUD for Links & Projects
+ 2. CRUD for Links & Projects
        Add, update, delete social links and project URLs easily.
-    📊 Tap Analytics System
+ 3. Tap Analytics System
        Tracks how many times each link is clicked.
-    🌐 IP Address Tracking
+ 4. IP Address Tracking
        Logs visitor IP addresses for activity monitoring and unique visit analysis.
-    📈 Activity Dashboard
+ 5. Activity Dashboard
        Users can view engagement stats for each link.
-    🎨 Responsive UI
+ 6. Responsive UI
        Clean and mobile-friendly interface.  
-    ⚡ Fast & Scalable Architecture
+ 7. Fast & Scalable Architecture
        Built for performance and smooth user experience.
   
- 🧠 Technical Highlights
-      Implemented CRUD operations for social links and projects.
-      Built a tap tracking system to count link clicks in real time.
-      Integrated IP logging to analyze visitor behavior.
-      Designed a scalable backend API for managing user data.
-      Optimized UI for fast interaction and clean UX.
+ 🧠 Technical Highlights-
+ 
+ 1. Implemented CRUD operations for social links and projects.
+ 2. Built a tap tracking system to count link clicks in real time.
+ 3. Integrated IP logging to analyze visitor behavior.
+ 4. Designed a scalable backend API for managing user data.
+ 5. Optimized UI for fast interaction and clean UX.
 
  
- 🛠 Tech Stack
-     Frontend:  Next.js
-     Authentication: Clerk
-     Backend: Node.js / API Routes
-     Database: postgresql
-     Styling: Tailwind CSS/ shadcn UI
-     Deployment: Vercel
+ 🛠 Tech Stack-
+ 
+ Frontend:  Next.js
+ Authentication: Clerk
+ Backend: Node.js / API Routes
+ Database: postgresql
+ Styling: Tailwind CSS/ shadcn UI
+ Deployment: Vercel
 
 
 
