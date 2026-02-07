@@ -54,10 +54,9 @@ TreeBio is a dynamic link-in-bio web application where users can create a person
 
        npm install
       
- 3️⃣ Setup environment variables
- 
-       Create a .env.local file and add:
-       NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
+ 3️⃣ Setup environment variables 
+Create a .env.local file and add:
+             NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
        CLERK_SECRET_KEY=your_key_here
        DATABASE_URL=put_your_neon_key
        NODE_ENV=development
