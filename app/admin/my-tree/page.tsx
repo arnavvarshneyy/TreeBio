@@ -36,8 +36,8 @@ const page = async() => {
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-start py-14'>
       <div className='order-2 lg:order-1 border-r'>
         <LinkForm
-        username={profile?.username}
-        bio={profile?.bio}
+        username={profile?.username ?? ''}
+        bio={profile?.bio ?? ''}
         // @ts-expect-error: links.data type differs from LinkForm expected type
         link={links.data}
         // @ts-expect-error: socialLinks may be undefined or typed differently
