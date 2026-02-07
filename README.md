@@ -34,12 +34,12 @@ TreeBio is a dynamic link-in-bio web application where users can create a person
  
  🛠 Tech Stack-
  
- Frontend:  Next.js
- Authentication: Clerk
- Backend: Node.js / API Routes
- Database: postgresql
- Styling: Tailwind CSS/ shadcn UI
- Deployment: Vercel
+ 1. Frontend:  Next.js
+ 2. Authentication: Clerk
+ 3. Backend: Node.js / API Routes
+ 4. Database: postgresql
+ 5. Styling: Tailwind CSS/ shadcn UI
+ 6. Deployment: Vercel
 
 
 
