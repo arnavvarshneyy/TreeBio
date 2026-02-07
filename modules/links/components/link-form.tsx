@@ -214,7 +214,7 @@ const LinkForm = ({ username, bio, link, socialLinks: initialSocialLink = [] }: 
     const onSocialLinkSubmit = async (data: socialLinksData) => {
 try {
     if(editingSocialLink){
-        const result = await editSocialLink(data , editingSocialLink.id)
+        const result: any = await editSocialLink(data , editingSocialLink.id)
 
           if (result?.sucess) {
           setUserSocialLinks((prev) =>
@@ -230,11 +230,11 @@ try {
         }
     }
     else{
-        const result = await addSocialLink(data);
+        const result: any = await addSocialLink(data);
 
         if(result?.success && result?.data){
             const newSocialLink: SocialLink = {
-            id: result.data?.id,
+            id: (result as any).data?.id,
             platform: data.platform,
             url: data.url,
           };
