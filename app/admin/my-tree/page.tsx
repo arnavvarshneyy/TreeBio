@@ -38,9 +38,9 @@ const page = async() => {
         <LinkForm
         username={profile?.username}
         bio={profile?.bio}
-        // @ts-expect-error
+        // @ts-expect-error: links.data type differs from LinkForm expected type
         link={links.data}
-        // @ts-expect-error
+        // @ts-expect-error: socialLinks may be undefined or typed differently
         socialLinks={profile?.socialLinks}
         />
       </div>

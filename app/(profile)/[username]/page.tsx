@@ -17,7 +17,7 @@ const profilePage = async({params}:{params:Promise<{username:string}>}) => {
     });
 
     return (
-            // @ts-expect-error
+            // @ts-expect-error: profileData may be partial/mismatch with component props
                 <TreeBioProfile profileData={profileData} />
     );
 }
