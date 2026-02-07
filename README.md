@@ -7,7 +7,6 @@
 TreeBio is a dynamic link-in-bio web application where users can create a personal profile and manage all their social links and projects in one place. It provides full CRUD  functionality with real-time activity tracking for better engagement insights.
        
 🚀 Features-
-
     🔐 Authentication with Clerk
        Secure login and user management using Clerk.
     ✏️ CRUD for Links & Projects
@@ -24,7 +23,6 @@ TreeBio is a dynamic link-in-bio web application where users can create a person
        Built for performance and smooth user experience.
   
  🧠 Technical Highlights
- 
       Implemented CRUD operations for social links and projects.
       Built a tap tracking system to count link clicks in real time.
       Integrated IP logging to analyze visitor behavior.
@@ -33,7 +31,6 @@ TreeBio is a dynamic link-in-bio web application where users can create a person
 
  
  🛠 Tech Stack
- 
      Frontend:  Next.js
      Authentication: Clerk
      Backend: Node.js / API Routes
@@ -56,7 +53,8 @@ TreeBio is a dynamic link-in-bio web application where users can create a person
       
  3️⃣ Setup environment variables 
 Create a .env.local file and add:
-             NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
+
+       NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
        CLERK_SECRET_KEY=your_key_here
        DATABASE_URL=put_your_neon_key
        NODE_ENV=development
