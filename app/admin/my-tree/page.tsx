@@ -2,7 +2,6 @@ import { Button } from '@/components/ui/button'
 import { getAllLinkForUser } from '@/modules/links/actions'
 import LinkForm from '@/modules/links/components/link-form'
 import { getCurrentUsername } from '@/modules/profile/actions'
-import { profile } from 'console'
 import { Brush, Share } from 'lucide-react'
 import React from 'react'
 
@@ -37,12 +36,12 @@ const page = async() => {
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-start py-14'>
       <div className='order-2 lg:order-1 border-r'>
         <LinkForm
-        username={profile?.username!}
-        bio={profile?.bio!}
-        // @ts-ignore
-        link={links.data!}
-        // @ts-ignore
-        socialLinks={profile?.socialLinks!}
+        username={profile?.username}
+        bio={profile?.bio}
+        // @ts-expect-error
+        link={links.data}
+        // @ts-expect-error
+        socialLinks={profile?.socialLinks}
         />
       </div>
       </div>

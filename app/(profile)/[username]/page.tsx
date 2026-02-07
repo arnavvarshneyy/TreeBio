@@ -17,8 +17,8 @@ const profilePage = async({params}:{params:Promise<{username:string}>}) => {
     });
 
     return (
-      // @ts-ignore
-        <TreeBioProfile profileData={profileData} />
+            // @ts-expect-error
+                <TreeBioProfile profileData={profileData} />
     );
 }
 
